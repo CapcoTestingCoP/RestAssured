@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: org.example.AppTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.753 s <<< FAILURE! - in org.example.AppTest
+bestShouldReturnOne(org.example.AppTest)  Time elapsed: 0.011 s  <<< ERROR!
+com.github.tomakehurst.wiremock.common.FatalStartupException: java.lang.RuntimeException: java.net.BindException: Address already in use
+	at org.example.AppTest.setUp(AppTest.java:25)
+Caused by: java.lang.RuntimeException: java.net.BindException: Address already in use
+	at org.example.AppTest.setUp(AppTest.java:25)
+Caused by: java.net.BindException: Address already in use
+	at org.example.AppTest.setUp(AppTest.java:25)
+
+bestShouldReturnTwo(org.example.AppTest)  Time elapsed: 0.006 s  <<< ERROR!
+com.github.tomakehurst.wiremock.common.FatalStartupException: java.lang.RuntimeException: java.net.BindException: Address already in use
+	at org.example.AppTest.setUp(AppTest.java:25)
+Caused by: java.lang.RuntimeException: java.net.BindException: Address already in use
+	at org.example.AppTest.setUp(AppTest.java:25)
+Caused by: java.net.BindException: Address already in use
+	at org.example.AppTest.setUp(AppTest.java:25)
+
