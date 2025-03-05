@@ -46,7 +46,40 @@
       },
       "response": {
         "status": 201,
-        "body": "{ \"id\": 2, \"name\": \"Jane Doe\" }",
+        "jsonBody": {
+          "accounting": [
+            {
+              "Name": "AliceWong",
+              "Level": "HRSpecialist",
+              "Domain": "CorporateServices",
+              "Capability": "HR",
+              "PrimarySkill": "Recruitment",
+              "Grade": 1,
+              "Salary": 85000,
+              "Currency": "USD"
+            },
+            {
+              "Name": "VijaySingh",
+              "Level": "SeniorConsultant",
+              "Domain": "WealthAndAssetManagement",
+              "Capability": "TechAndEngineering",
+              "PrimarySkill": "QATestingAndAutomation",
+              "Grade": 2,
+              "Salary": 200000,
+              "Currency": "INR"
+            },
+            {
+              "Name": "ChijiokeAmago",
+              "Level": "SeniorConsultant",
+              "Domain": "CrossDomain",
+              "Capability": "TechAndEngineering",
+              "PrimarySkill": "QATestingAndAutomation",
+              "Grade": 1,
+              "Salary": 150000,
+              "Currency": "GBP"
+            }
+          ]
+        },
         "headers": {
           "Content-Type": "application/json"
         }

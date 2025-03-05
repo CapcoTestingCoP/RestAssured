@@ -119,7 +119,7 @@ public class ResponseFactory {
      */
     public static String readJsonData(String json, String readAnotation) {
         ReadContext ctx = JsonPath.parse(json);
-        return ctx.read("$." + readAnotation);
+        return ctx.read("$." + readAnotation).toString();
     }
 
     /**

@@ -47,28 +47,33 @@
         "jsonBody": {
           "accounting": [
             {
-              "firstName": "John",
-              "lastName": "Doe",
+              "id": 12,
+              "firstName": "Steve",
+              "lastName": "Job",
               "age": 23,
-              "workInfo": {
-                "title": "IT Consultant",
-                "subDepart": {
-                  "group": "Admin",
-                  "report": {
-                    "reportManager": "James Will",
-                    "reportTitle": "Senior Consultant"
-                  }
-                }
-              },
-              "salary": {
-                "grade": "level 2",
-                "amount": "£33000"
-              }
+              "level": "Senior Consultant",
+              "domain": "wealthAndAssetManagement",
+              "capability": "tech",
+              "primarySkill": "QA",
+               "salary": {    
+                  "grade": "level 2", 
+                  "amount": "400000",
+                  "currency": "rupees"
+              }                 
             },
             {
-              "firstName": "Mary",
-              "lastName": "Smith",
-              "age": 32
+              "firstName": "John",
+              "age": 23,
+              "lastName": "Doe",
+              "level": "Senior Consultant",
+              "domain": "wealthAndAssetManagement",
+              "capability": "tech",
+              "primarySkill": "BA",
+                "salary": {
+                  "grade": "level 2",
+                  "amount": "200000",
+                  "currency": "rupees"
+                }
             }
           ],
           "sales": [
