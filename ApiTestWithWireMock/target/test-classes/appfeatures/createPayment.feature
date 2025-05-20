@@ -21,4 +21,3 @@ Feature: Employee Record Management
       | accounting[1].domain          | wealthAndAssetManagement |
       | accounting[1].salary.grade    | level 2                  |
 
-  

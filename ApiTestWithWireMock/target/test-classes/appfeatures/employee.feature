@@ -1,10 +1,11 @@
+@API
 Feature: Employee Record Management
-  As an HR manager,
-  I want to manage employee records,
-  So that I can ensure accurate employee information is maintained.
+  As an HR manager
+  I want to manage employee records
+  So that I can ensure accurate employee information is maintained
 
   Scenario Outline: Create a new employee record
-    Given an employee data below
+    Given employee data below
       | Name         | <Name>         |
       | Level        | <Level>        |
       | Domain       | <Domain>       |
@@ -13,7 +14,7 @@ Feature: Employee Record Management
       | Grade        | <Grade>        |
       | Salary       | <Salary>       |
       | Currency     | <Currency>     |
-    When I submit the employee data
+    When the employee data is submitted
     Then a new employee record is created
     And the system displays a confirmation message "Employee record created successfully.
       | <Id>.Name         | <Name>         |
